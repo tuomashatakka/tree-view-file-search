@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle tree filter",
+        "command": "tree-view-filter:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "View",
+      "submenu": [
+        {
+          "label": "Tree View",
+          "submenu": [
+            {
+              "label": "Toggle Filters",
+              "command": "tree-view-filter:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

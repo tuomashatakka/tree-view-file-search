@@ -1,0 +1,72 @@
+{
+  "name": "tree-view-filter",
+  "main": "./lib/index",
+  "version": "0.0.0",
+  "description": "Smart filtering for quickly finding the desired file(s)",
+  "keywords": [
+    "filter",
+    "tree-view",
+    "find",
+    "file",
+    "search",
+    "fs",
+    "directory",
+    "project"
+  ],
+  "activationCommands": {
+    "atom-workspace": "tree-view-filter:toggle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/tuomashatakka/atom-tree-view-filter.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "glob": "^7.1.1",
+    "immutable": "^3.8.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "configSchema": {
+    "clearOnOpen": {
+      "type": "boolean",
+      "description": "Clear the current filter whenever a file is opened",
+      "default": false
+    }
+  },
+  "bugs": {
+    "url": "https://gitlab.com/tuomashatakka/atom-tree-view-filter/issues"
+  },
+  "homepage": "https://gitlab.com/tuomashatakka/atom-tree-view-filter",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-preset-stage-1": "^6.13.0",
+    "eslint": "^3.5.0"
+  },
+  "scripts": {
+    "start": "exit 0"
+  },
+  "author": "Tuomas Hatakka",
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ]
+  },
+  "eslintConfig": {
+    "ecmaVersion": 7,
+    "env": {
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 7,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    }
+  }
+}
