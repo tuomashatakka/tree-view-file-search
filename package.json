@@ -1,6 +1,6 @@
 {
   "name": "tree-view-filter",
-  "main": "./lib/index",
+  "main": "./lib/index.js",
   "version": "0.0.0",
   "description": "Smart filtering for quickly finding the desired file(s)",
   "keywords": [
