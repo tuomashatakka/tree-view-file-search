@@ -1,0 +1,35 @@
+.highlight-label {
+  position: relative;
+  display: inline-block;
+  padding: 0.3em 0.6em;
+
+  input[type="radio"] { margin-top: 2px }
+  input[type="checkbox"] { margin-top: 3px }
+
+  // input[type='checkbox'], {
+  //   vertical-align: baseline;
+  //   cursor: pointer;
+  //   top: 2px;
+  //   -webkit-appearance: none;
+  //   width: 1em;
+  //   height: 1em;
+  //   border: 1px solid;
+  //   border-radius: 2px;
+  //   opacity: 0.88;
+  //   margin: 0 0.3em;
+  //   position: relative;
+  //
+  //   &:focus {
+  //     outline: none;
+  //     box-shadow: none;
+  //   }
+  //   &:checked {
+  //     background: transparentize(white, 0.5);
+  //   }
+  // }
+}
+
+.placeholder-menu {
+  max-height: 360px;
+  overflow: auto;
+}

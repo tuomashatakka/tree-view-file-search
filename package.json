@@ -25,10 +25,14 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
     "glob": "^7.1.1",
     "immutable": "^3.8.1",
     "react": "^15.4.1",
-    "react-dom": "^15.4.1"
+    "react-dom": "^15.4.1",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0"
   },
   "configSchema": {
     "clearOnOpen": {
@@ -53,6 +57,7 @@
   "babel": {
     "presets": [
       "es2015",
+      "react",
       "stage-0"
     ]
   },
