@@ -1,6 +1,6 @@
 {
   "atom-workspace": {
-    "alt-shift-T": "tree-view-filter:add",
+    "ctrl-t": "tree-view-filter:toggle",
     "ctrl-alt-shift-T": "tree-view-filter:toggle"
   }
 }
