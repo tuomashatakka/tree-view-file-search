@@ -1,6 +1,7 @@
 {
   "atom-workspace": {
-    "cmd.g": "tree-view-filter:toggle",
+    "ctrl-f": "tree-view-filter:toggle",
+    "cmd-g": "tree-view-filter:toggle",
     "cmd-G": "tree-view-filter:toggle"
   },
   ".platform-darwin atom-text-editor¸¸": {
