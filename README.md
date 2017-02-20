@@ -1,6 +1,11 @@
-# tree-view-filter package for Atom code editor
+# tree-view-file-search Atom.io package
 
-Pinned Bookmarks is a package for easily pinning and restoring any files.
+Super fast & *handy* complementary package that adds an additional inset panel to the
+bottom of the tree-view's panel. A simple set of controls for filtering files with their
+extensions & searching by filename in real time are provided.
 
-ctrl-alt-shift-D to toggle bookmarks panel,
-alt-shift-D to add the currently open file to the bookmarks.
+Very useful for large projects - no need to `ctrl(/cmd) + t` constantly anymore!
+
+## Instructions
+
+Activate by running the ```tree-view-file-search:toggle``` command
