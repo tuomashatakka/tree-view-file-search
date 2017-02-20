@@ -4,7 +4,7 @@
     "cmd-g": "tree-view-filter:toggle",
     "cmd-G": "tree-view-filter:toggle"
   },
-  ".platform-darwin atom-text-editor¸¸": {
+  ".platform-darwin atom-text-editor": {
     "ctrl-f": "tree-view-filter:toggle",
     "cmd-g": "tree-view-filter:toggle",
     "cmd-G": "tree-view-filter:toggle"
