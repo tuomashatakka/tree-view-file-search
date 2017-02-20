@@ -10,3 +10,8 @@ static/
 
 public/
 
+*.log
+.tag*
+process-palette.*son
+local*
+*.rdb,*.db
